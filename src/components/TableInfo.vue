@@ -11,19 +11,19 @@
           <th class="text-[12px] font-[500] capitalize text-[#667085]">
             <div class="theaders">
               <span>status</span>
-              <img src="assets/chevron-updown.svg" class="w-[.9rem]" alt="" />
+              <img src="../assets/chevron-updown.svg" class="w-[.9rem]" alt="" />
             </div>
           </th>
           <th class="text-[12px] font-[500] capitalize text-[#667085]">
             <div class="theaders">
               <span>type</span>
-              <img src="assets/chevron-updown.svg" class="w-[.9rem]" alt="" />
+              <img src="../assets/chevron-updown.svg" class="w-[.9rem]" alt="" />
             </div>
           </th>
           <th class="text-[12px] font-[500] capitalize text-[#667085]">
             <div class="theaders">
               <span>department</span>
-              <img src="assets/chevron-updown.svg" class="w-[.9rem]" alt="" />
+              <img src="../assets/chevron-updown.svg" class="w-[.9rem]" alt="" />
             </div>
           </th>
           <th class="text-[12px] font-[500] capitalize text-[#667085]">

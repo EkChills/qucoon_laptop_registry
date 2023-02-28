@@ -38,7 +38,7 @@
           class="w-[10.813rem] mt-10 flex items-center justify-center rounded-md bg-[#3366FF] h-[3rem] text-white text-[1rem] font-[600]"
         >
           <span v-show="!assignLoading">assign laptop</span>
-          <img v-show="assignLoading" class="w-[2rem]" src="assets/sign-spin.svg">
+          <img v-show="assignLoading" class="w-[2rem]" src="../assets/sign-spin.svg">
         </button>
     </form>
   </main>

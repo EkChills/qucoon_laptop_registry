@@ -10,19 +10,19 @@
           <th class="text-[12px] font-[500] capitalize text-[#667085]">
             <div class="theaders">
               <span>purchase date</span>
-              <img src="assets/chevron-updown.svg" class="w-[.9rem]" alt="" />
+              <img src="../assets/chevron-updown.svg" class="w-[.9rem]" alt="" />
             </div>
           </th>
           <th class="text-[12px] font-[500] capitalize text-[#667085]">
             <div class="theaders">
               <span>quality</span>
-              <img src="assets/chevron-updown.svg" class="w-[.9rem]" alt="" />
+              <img src="../assets/chevron-updown.svg" class="w-[.9rem]" alt="" />
             </div>
           </th>
           <th class="text-[12px] font-[500] capitalize text-[#667085]">
             <div class="theaders">
               <span>brand name</span>
-              <img src="assets/chevron-updown.svg" class="w-[.9rem]" alt="" />
+              <img src="../assets/chevron-updown.svg" class="w-[.9rem]" alt="" />
             </div>
           </th>
           <th class="text-[12px] font-[500] capitalize text-[#667085]">

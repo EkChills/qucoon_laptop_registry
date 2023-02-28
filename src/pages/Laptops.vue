@@ -1,7 +1,7 @@
 <template>
   <Navbar />
   <div  v-if="isLoading" class="flex min-h-[100vh] w-full items-center justify-center">
-    <img class="w-28" src="assets/spinner.svg" >
+    <img class="w-28" src="../assets/spinner.svg" >
   </div>
   <div v-else class="  min-h-[100vh] w-full py-[5rem] ml-[15.93rem] main-cont px-[2.5rem] bg-[#F8F8F8]">
     <div class="flex items-center justify-between mb-[2.5rem] mt-[1.25rem]">

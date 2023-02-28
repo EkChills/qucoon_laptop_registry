@@ -7,7 +7,7 @@
       </h3>
       <div class="flex items-center mt-[2rem]">
         <div class="flex w-1/2 items-center justify-center">
-          <img src="assets/Register_User.png" alt="" />
+          <img src="../assets/register_user.png" alt="register" />
         </div>
         <div class="flex flex-col w-1/2">
           <div class="max-w-[30rem] mx-auto flex flex-col">
@@ -54,7 +54,7 @@
               class="py-2 rounded-md text-white text-center bg-[#3366FF] flex items-center justify-center font-semibold capitalize mt-[50px] text-[20px]"
             >
               <span v-show="!isRegistering">register</span>
-              <img v-show="isRegistering" src="assets/sign-spin.svg" class="w-[2rem]" alt="">
+              <img v-show="isRegistering" src="../assets/sign-spin.svg" class="w-[2rem]" alt="">
             </button>
             <p class="text-[1rem] mt-[24px] text-center text-[#111827]">
               if you already have an account?

@@ -2,9 +2,9 @@ import { store } from "../store/store"
 
 
 export const links = [
-  {title:'dashboard', path:'dashboard', icon:'assets/dashboard.svg'},
-  {title:'laptops', path:'laptops', icon:'assets/laptop_icon.svg'},
-  {title:'employees', path:'employees', icon:'assets/employees.svg'},
+  {title:'dashboard', path:'dashboard', icon:'./assets/dashboard.svg'},
+  {title:'laptops', path:'laptops', icon:'./assets/laptop_icon.svg'},
+  {title:'employees', path:'employees', icon:'./assets/employees.svg'},
   // {title:'logout', path:'', icon:'assets/dashboard.svg'},
 ]
 

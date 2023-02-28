@@ -18,7 +18,7 @@
         class="flex items-center space-x-[1.079rem] rounded-lg cursor-pointer px-[1.6rem] links py-[0.938rem]"
         @click="logoutUser"
       >
-        <img src="assets/logout.svg" class="w-[21.47px] fill-[#3366FF]" />
+        <img src="../assets/logout.svg" class="w-[21.47px] fill-[#3366FF]" />
         <span class="text-[1rem] capitalize ">log out</span>
       </div>
     </div>

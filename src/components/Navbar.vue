@@ -11,7 +11,7 @@
         v-model="searchWOrd"
       />
       <button  class="absolute inset-0 left-4">
-        <img src="assets/search.svg" alt="search icon">
+        <img src="../assets/search.svg" alt="search icon">
       </button>
       </form>
     </div>
@@ -19,8 +19,8 @@
     <h1 v-if="routePath === '/dashboard'" class="text-xl font-bold text-black capitalize">laptop registry</h1>
 
     <div class="flex items-center space-x-[1rem]">
-      <img src="assets/messageIcon.svg" alt="message">
-      <img src="assets/Avatar.png" alt="avatar">
+      <img src="../assets/messageIcon.svg" alt="message">
+      <img src="../assets/Avatar.png" alt="avatar">
     </div>
   </nav>
 </template>

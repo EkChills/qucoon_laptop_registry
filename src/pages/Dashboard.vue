@@ -4,7 +4,7 @@
     v-if="isLoading"
     class="flex min-h-[100vh] w-full items-center justify-center"
   >
-    <img class="w-28" src="assets/spinner.svg" />
+    <img class="w-28" src="../assets/spinner.svg" />
   </div>
   <div
     v-else

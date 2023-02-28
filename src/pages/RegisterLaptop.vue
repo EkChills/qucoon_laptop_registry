@@ -97,7 +97,7 @@
           class="w-[10.813rem] flex items-center justify-center rounded-md bg-[#3366FF] h-[3rem] text-white text-[1rem] font-[600]"
         >
           <span v-show="!registerLoading">register laptop</span>
-          <img v-show="registerLoading" class="w-[2rem]" src="assets/sign-spin.svg">
+          <img v-show="registerLoading" class="w-[2rem]" src="../assets/sign-spin.svg">
         </button>
       </section>
     </form>
