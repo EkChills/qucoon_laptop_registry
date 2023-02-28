@@ -34,7 +34,7 @@ export default {
   computed:{
     isLoading() {
       console.log(this.$store.getters.getEmployeeLoading);
-      return this.$store.getters.getEmployeeLoading
+      return this.$store.getters.employeeLoading
     },
     employees() {
       return this.$store.getters.getMainEmployees
