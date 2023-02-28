@@ -11,7 +11,7 @@
         <div class="max-w-[30rem] mx-auto flex flex-col">
           <div class="flex flex-col space-y-3">
             <InputRow :labelText="'enter email address'" :inputName="'signInEmail'" :inputValue="signInEmail" :labelId="'email'" :error="signInMail" />
-            <InputRow labelText="enter password" :inputName="'signInPassword'" :inputValue="signInPassword" :labelId="'password'" :error="signInPass" />
+            <InputRow labelText="enter password" :inputName="'signInPassword'" :inputValue="signInPassword" :labelId="'password'" :error="signInPass" inpType="password" />
             <router-link to="/forgot-password" class="ml-auto"
               >forgot password?</router-link
             >

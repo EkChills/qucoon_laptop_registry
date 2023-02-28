@@ -6,7 +6,7 @@
   <div v-else class="  min-h-[100vh] w-full py-[5rem] ml-[15.93rem] main-cont px-[2.5rem] bg-[#F8F8F8]">
     <div class="flex items-center justify-between mb-[2.5rem] mt-[1.25rem]">
       <span class="text-[#13161D] font-semibold text-[1.5rem] capitalize">employees list</span>
-      <router-link to="/register-laptop"><RegisterButton :buttonText="'register'" /></router-link>
+      <router-link to="/register-employee"><RegisterButton :buttonText="'register employee'" /></router-link>
     </div>
     <EmployeeTable :employeeList="employees"/>
   </div>

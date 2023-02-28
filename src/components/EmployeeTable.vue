@@ -65,8 +65,11 @@
             />
           </td>
           <td class="text-[14px] text-[#667085]">
-            <span>{{ employee.email }}</span>
-            <AssignButton v-if="employee.status === 'not assigned'" class="ml-3" />
+            <div class="flex items-center justify-between">
+              <span>{{ employee.email }}</span>
+              <AssignButton v-if="employee.status === 'not assigned'" class="ml-3" />
+
+            </div>
           </td>
         </tr>
       </tbody>

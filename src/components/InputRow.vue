@@ -10,7 +10,7 @@
       @input="handleInputChange"
       :name="inputName"
       :value="inputValue"
-      type="text"
+      :type="inpType ? inpType : 'text'"
       :class="`rounded-md bg-transparent indent-2 py-2 border ${error ? 'error' : null} border-[#333F53] `"
     />
   </div>
@@ -28,6 +28,7 @@ export default {
     "inputValue",
     "onChange",
     "error",
+    'inpType'
   ],
   methods: {
     ...mapMutations(["handleChange"]),

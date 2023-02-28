@@ -10,6 +10,7 @@ import ErrorPage from '../pages/ErrorPage.vue'
 import Employees from '../pages/Employees.vue'
 import AssignLaptop from '../pages/AssignLaptop.vue'
 import Dashboard from '../pages/Dashboard.vue'
+import RegisterEmployee from '../pages/RegisterEmployee.vue'
 
 const router = createRouter({
   history:createWebHistory(),
@@ -28,6 +29,7 @@ const router = createRouter({
       {name:'employeesPage', path:'employees', component:Employees},
       {name:'register laptop', path:'register-laptop', component:RegisterLaptop},
       {name:'assign laptop', path:'assign', component:AssignLaptop},
+      {name:'register employee', path:'register-employee', component:RegisterEmployee},
     ]},
     {name:'register', path:'/register', component:Register},
     {name:'forgotPassword', path:'/forgot-password', component:ForgotPassword},
