@@ -10,7 +10,7 @@
         placeholder="search"
         v-model="searchWOrd"
       />
-      <button  class="absolute inset-0 left-4">
+      <button  class="absolute top-3 left-4">
         <img src="../assets/search.svg" alt="search icon">
       </button>
       </form>
