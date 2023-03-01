@@ -38,6 +38,7 @@
                 :labelId="'choosePass'"
                 :inputName="'password'"
                 :inputValue="password"
+                :inpType="'password'"
                 :error="errors.createPasswordError"
               />
               <InputRow
@@ -46,6 +47,7 @@
                 :inputName="'confirmPassword'"
                 :inputValue="confirmPassword"
                 :error="errors.createConfirmError"
+                :inpType="'password'"
               />
             </div>
 
