@@ -1,7 +1,11 @@
 <template>
   <aside
-    class="fixed bg-white top-0 w-[15.93rem] border border-r-2 border-r-[hsl(0,0%,90%)] pt-[6.375rem] px-[24px] bottom-0 left-0"
+    class="fixed bg-white top-0 w-[15.93rem] border border-r-2 border-r-[hsl(0,0%,90%)] pt-[2rem] px-[24px] bottom-0 left-0"
   >
+  <div class="flex flex-col space-y-1 mb-[2.2rem] ">
+    <h3 class="text-[2rem] capitalize text-[#242424] font-semibold">qucoon</h3>
+    <p class="text-[.5rem] text-[#B6B6B6] ml-[3rem]">simpler future now</p>
+  </div>
     <div class="flex flex-col space-y-[25px]">
       <router-link
         to="dashboard"

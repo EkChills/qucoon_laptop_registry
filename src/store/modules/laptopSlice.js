@@ -10,6 +10,8 @@ export default {
     backupMainLaptops:[],
     employees:[],
     gottenLaptops:[],
+    assignedLaptops:null,
+    unassignedLaptops:null,
     isLoading:true,
     registerError:{
       error:false,
@@ -77,7 +79,29 @@ export default {
     },
     setMainLaptops(state,payload) {
       state.mainLaptops = payload
-    }
+    },
+    calcAssigned:(state, payload) => {
+      let assigned = payload.reduce((total, item) => {
+        let count = 0
+        if(item.status === 'assigned') {
+          count = count + 1
+          return total + count
+        }
+        return total
+      }, 0)
+      state.assignedLaptops = assigned
+    },
+    calcUnassigned:(state, payload) => {
+      let assigned = payload.reduce((total, item) => {
+        let count = 0
+        if(item.status === 'not assigned') {
+          count = count + 1
+          return total + count
+        }
+        return total
+      }, 0)
+      state.unassignedLaptops = assigned
+    },
   },
   getters:{
     isLoading:(state) => {
@@ -108,6 +132,12 @@ export default {
         { id: 3, title: "good laptops", numbers:filteredGood, color:'green'},
         { id: 4, title: "faulty laptops", numbers:filteredFaulty, color:'red'},
       ]
+    },
+    getAssigned:(state) => {
+      return {
+        assigned:state.assignedLaptops,
+        unassigned:state.unassignedLaptops
+      }
     } 
   },
 
@@ -130,6 +160,8 @@ export default {
       }
       if(laptops.status === status) {
         context.commit('setGottenLaptops', laptops.value.data.data)
+        context.commit('calcAssigned', laptops.value.data.data)
+        context.commit('calcUnassigned', laptops.value.data.data)
         context.commit('stopLoading')
       }
 
