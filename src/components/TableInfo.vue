@@ -66,7 +66,7 @@
             <div class="flex item-center space-x-[1.3rem] justify-between">
               <div class="flex space-x-[.75rem] items-center">
                 <span
-                  class="uppercase text-[#DB657B] text-[.875rem] flex items-center justify-center bg-[#F8E0E5] w-[2rem] h-[2rem] rounded-full"
+                  class="uppercase text-[#5C85FF] text-[.875rem] flex items-center justify-center bg-[#EFF3FF] w-[2rem] h-[2rem] rounded-full"
                   ><span>{{
                     foundEmployee(laptop.employeeid).firstname.slice(0, 2)
                   }}</span></span
