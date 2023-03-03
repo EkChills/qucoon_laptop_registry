@@ -152,7 +152,7 @@ export default {
         // setUserToLocalStorage(data.user)
       } catch (error) {
         console.log(error);
-        context.dispatch('setLoginError', 'there was an error')
+        context.commit('setLoginError', 'there was an error')
         context.commit('stopRegistering')
         toast.error('was an err', {position:'top-center'})
       }
