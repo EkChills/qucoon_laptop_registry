@@ -127,6 +127,9 @@ export default {
   },
   methods: {
     ...mapMutations(["toggleMember", "changeUser"]),
+    clearInputs() {
+      this.$store.commit('clearInputs')
+    },
     async onSubmitValidation(e, payload) {
       e.preventDefault();
       this.validateGuard();
@@ -163,6 +166,7 @@ export default {
             gender: this.gender,
             status: this.status,
           });
+          this.clearInputs()
           if(this.loginError) {
             return
           } else {

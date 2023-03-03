@@ -67,6 +67,15 @@ export default {
         error: false,
         msg:''
       }
+    },
+    clearInputs(state) {
+      state.firstName = ''
+      state.lastName = ''
+      state.emailAddress = ''
+      state.isRegistering = ''
+      state.phoneNo = ''
+      state.password = ''
+      state.confirmPassword = ''
     }
   },
   getters: {
@@ -154,7 +163,7 @@ export default {
         console.log(error);
         context.commit('setLoginError', 'there was an error')
         context.commit('stopRegistering')
-        toast.error('was an err', {position:'top-center'})
+        toast.error('there was an error', {position:'top-center'})
       }
     },
     async logoutUser(context) {
