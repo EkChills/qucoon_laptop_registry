@@ -94,7 +94,7 @@
           </select>
         </div>
         <button
-          class="w-[10.813rem] flex items-center justify-center rounded-md bg-[#3366FF] h-[3rem] text-white text-[1rem] font-[600]"
+          class="w-[10.813rem] flex items-center justify-center rounded-md bg-[#3366FF] h-[3rem] hover:opacity-40 transition-all ease-in-out text-white text-[1rem] font-[600]"
         >
           <span v-show="!employeeLoading">register employee</span>
           <img v-show="employeeLoading" class="w-[2rem]" src="../assets/sign-spin.svg">
